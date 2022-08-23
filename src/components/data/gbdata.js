@@ -37,7 +37,7 @@ export const home = [
         id: 1,
         text: "OLÁ EU SOU",
         name: "GABRIEL BARBOSA",
-        post: "DESENVOLVEDOR REACT",
+        post: "DEV REACT",
         design: "FRONT-END",
         desc: "Sou desenvolvedor web front end. Tenho conhecimento em linguagens como HTML, CSS, Javascript, NodeJS, MySql, MongoDB. Atualmente estou desenvolvendo com a library React <3.",
     },
