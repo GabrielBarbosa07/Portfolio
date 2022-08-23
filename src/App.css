@@ -93,7 +93,7 @@ h6 {
   transition: all .5s;
 }
 
-.CVBtn{
+.CVBtn {
   outline: none;
   font-size: 17px;
   background-color: transparent;
@@ -134,11 +134,11 @@ header .icon {
   font-size: 35px;
 }
 
-header .navLink{
+header .navLink {
   margin-left: 40px;
 }
 
-header .navLink:hover{
+header .navLink:hover {
   transition: 0.7s all;
   color: var(--primaryColor);
 }
@@ -148,6 +148,7 @@ header .navLink:hover{
   color: var(--white);
   display: none;
   padding: 0;
+  border: none;
 }
 
 /*Fim do Header*/
@@ -216,7 +217,7 @@ section {
   margin-bottom: 10px;
 }
 
-.left .img img{
+.left .img img {
   width: 100%;
   border-radius: 1rem;
 }
@@ -255,7 +256,7 @@ section {
 
 .services .box {
   background-color: var(--primaryBackground);
-  padding: 35px;
+  padding: 20px;
 }
 
 .services i {
@@ -481,7 +482,7 @@ footer i a {
     position: absolute;
     top: 10vh;
     left: 0;
-    width: 90%;
+    width: 100%;
     background-color: var(--headingColor);
   }
 
@@ -533,7 +534,8 @@ footer i a {
   }
 
   .portifolio .catButton {
-    grid-row: auto;
+    display: flex;
+    flex-direction: column;
   }
 
   .left,
@@ -561,6 +563,7 @@ footer i a {
     }
 
   }
+
 }
 
 /*Fim do Responsive*/
