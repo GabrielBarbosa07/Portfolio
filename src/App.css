@@ -533,9 +533,19 @@ footer i a {
     text-align: justify;
   }
 
+  .services .container .content {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
   .portifolio .catButton {
     display: flex;
     flex-direction: column;
+  }
+
+  .portifolio .container .content {
+    display: grid;
+    grid-template-columns: 1fr;
   }
 
   .left,
@@ -546,6 +556,11 @@ footer i a {
   .grid3,
   .grid4 {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .blog .container .content {
+    display: grid;
+    grid-template-columns: 1fr;
   }
 
   .contact .right,
