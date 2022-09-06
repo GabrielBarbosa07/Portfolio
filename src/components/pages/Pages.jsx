@@ -14,6 +14,7 @@ import { Contact } from "./Contact";
 import { Depoiments } from "./Depoiments";
 import { Portifolio } from "./Portifolio";
 import { Services } from "./Services";
+import { Skills } from "./Skills";
 
 
 export const Pages = () => {
@@ -25,12 +26,13 @@ export const Pages = () => {
                     <Route exact path="/" component={Home} />
                     <Route exact path="/sobre" component={About} />
                     <Route exact path="/servicos" component={Services} />
+                    <Route exact path="/habilidades" component={Skills} />
                     <Route exact path="/portifolio" component={Portifolio} />
                     <Route exact path="/depoimentos" component={Depoiments} />
                     <Route exact path="/blog" component={Blog} />
                     <Route exact path="/contato" component={Contact} />
                 </Switch>
-                <Footer/>
+                <Footer />
             </Router>
         </>
     )

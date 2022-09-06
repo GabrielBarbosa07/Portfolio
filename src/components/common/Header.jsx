@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { navlink } from '../data/gbdata'
-import logo from "../data/images/logo.png"
+import logo from "../data/images/icon.png"
 import { Menu } from '@mui/icons-material'
 
 export const Header = () => {
@@ -13,7 +13,7 @@ export const Header = () => {
                 <div className="container flexsb">
 
                     <div className="logo">
-                        <Link to="/"><img src={logo} alt="Logo" data-aos="zoom-in-right" /></Link>
+                        <Link to="/"><img className="img-logo" src={logo} alt="Logo" data-aos="zoom-in-right" /></Link>
                     </div>
 
                     <div className={responsive ? "hideMenu" : "nav"}>

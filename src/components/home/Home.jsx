@@ -8,6 +8,7 @@ import { Depoiments } from '../pages/Depoiments'
 import { Blog } from '../pages/Blog'
 import { Contact } from '../pages/Contact'
 import { ScrollUp } from './ScrollUp'
+import { Skills } from '../pages/Skills'
 
 export const Home = () => {
   
@@ -16,6 +17,7 @@ export const Home = () => {
       <Hero />
       <About />
       <Services />
+      <Skills/>
       <Counter />
       <Portifolio />
       <Depoiments />

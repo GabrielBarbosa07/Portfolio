@@ -7,7 +7,7 @@ import { useEffect } from "react";
 function App() {
   useEffect(() => {
     AOS.init({duration: 500})
-    AOS.refreshHard()
+    AOS.refresh()
   }, [])
 
   return (
