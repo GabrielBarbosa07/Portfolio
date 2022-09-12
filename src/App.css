@@ -679,6 +679,10 @@ footer i a {
     margin-bottom: 30px;
   }
 
+  .services{
+    padding: 0;
+  }
+
   .portifolio .catButton {
     display: flex;
     flex-direction: column;
@@ -713,6 +717,11 @@ footer i a {
     display: grid;
     grid-template-columns: 1fr;
   }
+
+.portifolio .container{
+  margin-top: 150px;
+}
+
   .blog {
     margin-top: 70px;
   }
