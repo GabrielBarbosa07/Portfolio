@@ -11,7 +11,6 @@ export const Portifolio = () => {
   const filterItems = (category) => {
     const newItems = portifolio.filter((item) => item.category === category)
     setList(newItems)
-    console.log(setCategory)
 
     if (category === "Todos") {
       setList(portifolio)
@@ -34,10 +33,10 @@ export const Portifolio = () => {
 
           <div className="content grid3">
 
-            {list.map((items) => (
+            {list.slice(0, 6).map((items) => (
               <div className="box" data-aos="fade-up" key={items.id}>
                 <div className="img scale">
-                    <img src={items.cover} alt="" />
+                  <img src={items.cover} alt="" />
                 </div>
               </div>
             ))}

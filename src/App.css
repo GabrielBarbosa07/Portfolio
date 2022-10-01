@@ -394,6 +394,10 @@ article .box {
   transition: 0.5s;
 }
 
+article .box .img img{
+  max-height: 270px;
+}
+
 .content .scale {
   transition: all 0.5s;
   cursor: pointer;
